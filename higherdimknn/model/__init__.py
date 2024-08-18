@@ -1,0 +1,1 @@
+from .higher_dim_knn import KNRegressor
