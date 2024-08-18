@@ -72,7 +72,6 @@ class KNRegressor():
             _neighbors_indices, _distances = self.get_neighbors(p)
 
             _weights = self.get_weights(_distances)
-            print(_weights)
 
             _output.append(
                 np.matmul(_weights, self.y_train[_neighbors_indices])
